@@ -1,0 +1,26 @@
+c:\users\jorge guerrero\documents\visual studio 2015\Projects\termostato\termostato\bin\Debug\termostato.exe.config
+C:\Users\Jorge Guerrero\Documents\Visual Studio 2015\Projects\termostato\termostato\obj\Debug\termostato.csprojResolveAssemblyReference.cache
+C:\Users\Jorge Guerrero\Documents\Visual Studio 2015\Projects\termostato\termostato\obj\Debug\termostato.admin.resources
+C:\Users\Jorge Guerrero\Documents\Visual Studio 2015\Projects\termostato\termostato\obj\Debug\termostato.crud.resources
+C:\Users\Jorge Guerrero\Documents\Visual Studio 2015\Projects\termostato\termostato\obj\Debug\termostato.log.resources
+C:\Users\Jorge Guerrero\Documents\Visual Studio 2015\Projects\termostato\termostato\obj\Debug\termostato.Properties.Resources.resources
+C:\Users\Jorge Guerrero\Documents\Visual Studio 2015\Projects\termostato\termostato\obj\Debug\termostato.report.resources
+C:\Users\Jorge Guerrero\Documents\Visual Studio 2015\Projects\termostato\termostato\obj\Debug\termostato.users.resources
+C:\Users\Jorge Guerrero\Documents\Visual Studio 2015\Projects\termostato\termostato\obj\Debug\termostato.csproj.GenerateResource.Cache
+C:\Users\Jorge Guerrero\Documents\Visual Studio 2015\Projects\termostato\termostato\bin\Debug\termostato.exe
+C:\Users\Jorge Guerrero\Documents\Visual Studio 2015\Projects\termostato\termostato\bin\Debug\termostato.pdb
+C:\Users\Jorge Guerrero\Documents\Visual Studio 2015\Projects\termostato\termostato\obj\Debug\termostato.exe
+C:\Users\Jorge Guerrero\Documents\Visual Studio 2015\Projects\termostato\termostato\obj\Debug\termostato.pdb
+C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\bin\Debug\termostato.exe.config
+C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\obj\Debug\termostato.exe
+C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\obj\Debug\termostato.pdb
+C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\bin\Debug\termostato.exe
+C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\bin\Debug\termostato.pdb
+C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\obj\Debug\termostato.csprojResolveAssemblyReference.cache
+C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\obj\Debug\termostato.Inicio.resources
+C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\obj\Debug\termostato.frmUsuarios.resources
+C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\obj\Debug\termostato.log.resources
+C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\obj\Debug\termostato.Properties.Resources.resources
+C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\obj\Debug\termostato.report.resources
+C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\obj\Debug\termostato.frmBS.resources
+C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\obj\Debug\termostato.csproj.GenerateResource.Cache
