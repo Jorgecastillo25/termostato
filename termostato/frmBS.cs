@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace termostato
 {
-    public partial class crud : Form
+    public partial class frmBS : Form
     {
-        public crud()
+        public frmBS()
         {
             InitializeComponent();
         }

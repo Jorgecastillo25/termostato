@@ -16,7 +16,7 @@ namespace termostato
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new admin());
+            Application.Run(new Inicio());
         }
     }
 }

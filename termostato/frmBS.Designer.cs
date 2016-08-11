@@ -1,6 +1,6 @@
 ﻿namespace termostato
 {
-    partial class users
+    partial class frmBS
     {
         /// <summary>
         /// Required designer variable.
