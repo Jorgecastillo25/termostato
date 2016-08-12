@@ -52,6 +52,7 @@ namespace termostato
         private void termostatoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmBS bullshit = new frmBS();
+            bullshit.Usuario = Inicio.usuario;
             bullshit.MdiParent = this;
             bullshit.Show();
         }
