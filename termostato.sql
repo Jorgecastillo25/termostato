@@ -15,19 +15,24 @@ CREATE DATABASE IF NOT EXISTS `termostato` /*!40100 DEFAULT CHARACTER SET utf8 *
 USE `termostato`;
 
 
--- Volcando estructura para tabla termostato.log
-CREATE TABLE IF NOT EXISTS `log` (
+-- Volcando estructura para tabla termostato.logs
+CREATE TABLE IF NOT EXISTS `logs` (
   `log` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `usuario` varchar(20) NOT NULL DEFAULT 'lol',
-  `movimiento` varchar(20) NOT NULL DEFAULT 'lol',
+  `grados` int(11) NOT NULL DEFAULT '0',
   `fechaHora` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`log`),
   UNIQUE KEY `log` (`log`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
--- Volcando datos para la tabla termostato.log: ~0 rows (aproximadamente)
-/*!40000 ALTER TABLE `log` DISABLE KEYS */;
-/*!40000 ALTER TABLE `log` ENABLE KEYS */;
+-- Volcando datos para la tabla termostato.logs: ~4 rows (aproximadamente)
+/*!40000 ALTER TABLE `logs` DISABLE KEYS */;
+REPLACE INTO `logs` (`log`, `usuario`, `grados`, `fechaHora`) VALUES
+	(1, 'yugi', 14, '2016-08-12 03:05:29'),
+	(2, 'tamez', 7, '2016-08-12 03:05:57'),
+	(3, 'cheno', 16, '2016-08-12 03:06:15'),
+	(4, 'tamez', 99, '2016-08-12 03:07:46');
+/*!40000 ALTER TABLE `logs` ENABLE KEYS */;
 
 
 -- Volcando estructura para tabla termostato.usuarios
@@ -39,7 +44,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   UNIQUE KEY `usuario` (`usuario`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Volcando datos para la tabla termostato.usuarios: ~0 rows (aproximadamente)
+-- Volcando datos para la tabla termostato.usuarios: ~3 rows (aproximadamente)
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
 REPLACE INTO `usuarios` (`usuario`, `password`, `admin`) VALUES
 	('cheno', '12345', 'n'),
