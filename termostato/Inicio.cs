@@ -60,5 +60,12 @@ namespace termostato
         {
             reload();
         }
+
+        private void reportesDeActividadesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            report rpt = new report();
+            rpt.MdiParent = this;
+            rpt.Show();
+        }
     }
 }
