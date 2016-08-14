@@ -31,13 +31,13 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.cRUDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesDeActividadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.appToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.termostatoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,13 +68,25 @@
             // 
             this.usuarioToolStripMenuItem.Enabled = false;
             this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
-            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.usuarioToolStripMenuItem.Text = "Usuario: ";
+            // 
+            // cerrarSesiónToolStripMenuItem
+            // 
+            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
+            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar sesión";
+            this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(139, 6);
             // 
             // cRUDToolStripMenuItem
             // 
             this.cRUDToolStripMenuItem.Name = "cRUDToolStripMenuItem";
-            this.cRUDToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cRUDToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.cRUDToolStripMenuItem.Text = "CRUD";
             this.cRUDToolStripMenuItem.Click += new System.EventHandler(this.cRUDToolStripMenuItem_Click);
             // 
@@ -91,6 +103,7 @@
             this.reportesDeActividadesToolStripMenuItem.Name = "reportesDeActividadesToolStripMenuItem";
             this.reportesDeActividadesToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
             this.reportesDeActividadesToolStripMenuItem.Text = "Reportes de Actividades";
+            this.reportesDeActividadesToolStripMenuItem.Click += new System.EventHandler(this.reportesDeActividadesToolStripMenuItem_Click);
             // 
             // appToolStripMenuItem
             // 
@@ -103,21 +116,9 @@
             // termostatoToolStripMenuItem
             // 
             this.termostatoToolStripMenuItem.Name = "termostatoToolStripMenuItem";
-            this.termostatoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.termostatoToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.termostatoToolStripMenuItem.Text = "Termostato";
             this.termostatoToolStripMenuItem.Click += new System.EventHandler(this.termostatoToolStripMenuItem_Click);
-            // 
-            // cerrarSesiónToolStripMenuItem
-            // 
-            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
-            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar sesión";
-            this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
             // 
             // Inicio
             // 

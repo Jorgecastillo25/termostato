@@ -46,6 +46,7 @@ namespace termostato
             admin = "n";
             chkAdmin.Checked = false;
             chkPwd.Checked = false;
+            btnNuevo.Enabled = btnModificar.Enabled = btnBorrar.Enabled = false;
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
@@ -64,6 +65,7 @@ namespace termostato
                     break;
             }
             chkPwd.Checked = false;
+            btnNuevo.Enabled = btnModificar.Enabled = btnBorrar.Enabled = false;
         }
 
         private void btnBorrar_Click(object sender, EventArgs e)
@@ -116,6 +118,7 @@ namespace termostato
                     break;
             }
             conn.executeQuery(sql);
+            btnNuevo.Enabled = btnModificar.Enabled = btnBorrar.Enabled = true;
             dgvLoad();
         }
 
@@ -125,6 +128,7 @@ namespace termostato
             txtPassword.Text = "";
             chkAdmin.Checked = false;
             chkPwd.Checked = false;
+            btnNuevo.Enabled = btnModificar.Enabled = btnBorrar.Enabled = true;
             panel1.Enabled = false;
         }
 

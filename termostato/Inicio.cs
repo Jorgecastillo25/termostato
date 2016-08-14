@@ -52,6 +52,7 @@ namespace termostato
         private void termostatoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmBS bullshit = new frmBS();
+            bullshit.Usuario = Inicio.usuario;
             bullshit.MdiParent = this;
             bullshit.Show();
         }
@@ -59,6 +60,13 @@ namespace termostato
         private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
         {
             reload();
+        }
+
+        private void reportesDeActividadesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            report rpt = new report();
+            rpt.MdiParent = this;
+            rpt.Show();
         }
     }
 }
