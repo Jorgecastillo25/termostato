@@ -68,5 +68,18 @@ namespace termostato
             rpt.MdiParent = this;
             rpt.Show();
         }
+
+        private void infoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            acercaDe acerca = acercaDe.Instancia;
+            acerca.MdiParent = this;
+            acerca.Show();
+            acerca.BringToFront();
+        }
+
+        private void Inicio_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }
