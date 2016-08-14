@@ -28,11 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.lblApp = new System.Windows.Forms.Label();
             this.lblAutor = new System.Windows.Forms.Label();
             this.lblFecha = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblOS = new System.Windows.Forms.Label();
             this.lblDBMS = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -65,14 +63,9 @@
             this.lblFecha.ForeColor = System.Drawing.Color.DodgerBlue;
             this.lblFecha.Location = new System.Drawing.Point(-2, 171);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(236, 37);
+            this.lblFecha.Size = new System.Drawing.Size(485, 37);
             this.lblFecha.TabIndex = 2;
-            this.lblFecha.Text = "Fecha y hora: ";
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.lblFecha.Text = "Fecha de creación: 10/08/2016";
             // 
             // lblOS
             // 
@@ -124,7 +117,6 @@
         private System.Windows.Forms.Label lblApp;
         private System.Windows.Forms.Label lblAutor;
         private System.Windows.Forms.Label lblFecha;
-        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label lblOS;
         private System.Windows.Forms.Label lblDBMS;
     }
