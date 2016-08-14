@@ -24,3 +24,4 @@ C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\obj\Debug\termos
 C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\obj\Debug\termostato.report.resources
 C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\obj\Debug\termostato.frmBS.resources
 C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\obj\Debug\termostato.csproj.GenerateResource.Cache
+C:\Users\Rattlehead\Documents\MEGA\GitHub\termostato\termostato\obj\Debug\termostato.acercaDe.resources

@@ -62,15 +62,19 @@ namespace termostato
 
         private void log_FormClosed(object sender, FormClosedEventArgs e)
         {
-            switch (lel)
+            try
             {
-                case 0:
-                    Application.Exit();
-                    break;
-                default:
-                    lel++;
-                    break;
+                switch (lel)
+                {
+                    case 0:
+                        Application.Exit();
+                        break;
+                    default:
+                        lel++;
+                        break;
+                }
             }
+            catch (Exception ex) { }
         }
     }
 }
