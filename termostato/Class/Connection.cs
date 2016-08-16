@@ -12,8 +12,8 @@ namespace termostato.Class
     class Connection
     {
         #region Variables // CONN CONFIG
-        private string[] connSettings = { "termostato", "root", "localhost", "madrigalesgay21" };
-        //private string[] connSettings = { "termostato", "root", "localhost", "1234" };
+        //private string[] connSettings = { "termostato", "root", "localhost", "madrigalesgay21" };
+        private string[] connSettings = { "termostato", "root", "localhost", "1234" };
         public static MySqlConnection cn;
         #endregion
 
