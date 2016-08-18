@@ -33,10 +33,12 @@ namespace termostato
             this.MdiParent = null;
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            lblFecha.Text = "Fecha y hora: " + DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
-        }
+        #region lel
+        //private void timer1_Tick(object sender, EventArgs e)
+        //{
+        //    lblFecha.Text = "Fecha y hora: " + DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
+        //}
+        #endregion
 
         #region OS
         static bool IsWindows10()
